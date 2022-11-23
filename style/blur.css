@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+
+
+.box{
+    position: absolute;
+
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgb(175, 28, 28);
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgb(255, 252, 252) ;
+}
+
+
+.box h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.box input{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.box textarea{
+    height: 80px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.box input,
+.box textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+}
